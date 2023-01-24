@@ -1,0 +1,48 @@
+﻿Homework 03 - RequirementAnalysis
+GROUP 9 (ISD.VN.20191-09)
+
+Description of the assignment: 
+- Glossary related to: Scan prepaid card
+- Do the specification for use case: Scan prepaid card
+- Do the supplementary specification for the SRS
+Doer: Nguyễn Đình Thơ
+
+==Reviewer: Trần Văn Thông
+
+1. Glossary related to: Scan prepaid card
+- Error(s): 
+- Comments:
+- Proposals for Corrections (gợi ý sửa):
+
+2. Do the specification for use case: Scan prepaid card 
+- Error(s): 
+- Comments:
+- Proposals for Corrections (gợi ý sửa):
+
+3. Do the supplementary specification for the SRS
+- Error(s): 
+- Comments:
+- Proposals for Corrections (gợi ý sửa):
+
+==Reviewer: Nguyễn Mạnh Tiến
+    Do the specification for use case: Scan prepaid card 
+- Error(s): 1 
+- Comments:
+    + File "Homework 3 individual assignment" nên sửa thành "[Tho] Homework 3 individual assignment"
+        ==> Người chấm điểm còn biết đang mở file của ai
+    + Flow of event: Sơ sài; làm sát với biểu đồ usecase, không có gì liên quan đến cái cửa trong luồng sự kiện,
+    luồng này chỉ đơn giản là việc thông báo hợp lệ cho người dùng là điều kiện thành công;
+    số 2 luồng chính cần nói rõ TH nào thẻ hợp lệ và không hợp lệ (rẽ ra luồng ngoại lệ nào);
+    luồng ngoại lệ các tác nhân phải làm gì để khi quay lại luồng chính, được duyệt là hợp lệ và chạy tiếp luồng chính.;
+    + Thống nhất về mặt ngôn ngữ: đã viết "cửa" thì là "cửa" tất, không thể tự nhiên có chữ "cổng" 
+    + Biểu đồ hoạt động: 
+        `Lỗi sai: ``thế nếu check thông tin sai mà chỉ về kiểm tra thông tin tiếp thì nó làm gì tiếp (vòng lặp vô hạn)
+                        ==> vậy nếu sai thì người dùng phải làm gì tiếp để khi đưa thẻ check thông tin nó là hợp lệ. 
+                  Không có tác nhân gate
+        `Nên chuyển hết thành tiếng anh. Có tên biểu đồ (hình và file để là activity Diagram0) ==> tham khảo cách đặt tên của em nhé 
+        `Có những 2 file astah kèm theo 2 file ảnh, xử lý up lại 1 file duy nhất kèm tên rõ ràng 
+    + Xóa những dòng *HINT đi, 1 usecase thì không cần để tên đề mục, đã đề cập rất rõ trong HINT
+    + Xóa những thứ thừa, không dùng đến như row của bảng
+- Proposals for Corrections (gợi ý sửa): Đã đề cập kèm ở trên
+
+==> Nhìn chung bài còn hơi sơ sài, anh cân nhắc bổ sung nhé!  

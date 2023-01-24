@@ -1,0 +1,14 @@
+﻿Homework 06 - Week 6 - Detailed Design - Class Design 
+GROUP 9 (ISD.VN.20191-09)
+
+Description of the assignment: 
+	* Design the detailed class: AFCInterface; AFCController; AFCCheckValidOfOneWayTicket
+	* Merge into a detailed class diagram with Relationships Between Classes
+Doer: Tran Van Thong
+Reviewer: Pham Huu Tho
+
+1. Design the detailed class: AFCController24h; AFCCheckValidOfCertifate; PrepaidCard;TransactionHistory
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):
+

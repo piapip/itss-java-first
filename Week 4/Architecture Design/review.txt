@@ -1,0 +1,67 @@
+﻿Homework 04 - Week 4 - Sequence Diagram
+GROUP 9 (ISD.VN.20191-09)
+
+===================================================================================================================================================
+Description of the assignment: 
+	- Design the sequence diagram for use case: Enter with prepaid card
+Doer: Pham Huu Tho
+Reviewer: Phung Thi Trang
+
+Design the sequence diagram for use case: Enter with prepaid card 
+- Error(s): 0
+- Comments:  
+    * Các comment trong pull: https://bitbucket.org/tientt_glose/isd.vn.20191-09/pull-requests/42/week4-phamhuutho/activity
+- Proposals for Corrections (gợi ý sửa): 
+	+ Em chỉ có ý kiến nho nhỏ là mình có nên cho thêm 1.1.3 là check trạng thái của card, ví dụ lần đầu sử dụng card có trạng thái new, lần thứ 2 sử dụng mà hợp lệ thì nó chuyển đến trạng thái valid ,... (checked and rejected)
+===================================================================================================================================================
+Description of the assignment: 
+	- Design the sequence diagram for use case: Enter with 24-hour ticket
+Doer: Phùng Thị Trang
+Reviewer: Trần Văn Thông
+
+1. Design the sequence diagram for use case: 
+- Error(s): Tên của usecase là Enter with 24-hour ticket còn ở trên diagram là Enter with ticket 24-hour
+- Comments:
+    * Các comment trong pull: https://bitbucket.org/tientt_glose/isd.vn.20191-09/pull-requests/44/week4-phungthitrang/activity
+    - Thể hiện được đầy đủ các bước trong use case Enter with 24-hour ticket. 
+- Proposals for Corrections (gợi ý sửa): Sửa tên diagram thành Enter with 24-hour ticket
+===================================================================================================================================================
+Description of the assignment: 
+  - Design the sequence diagram for use case: Exit with 24-hour ticket
+Doer: Tran Van Thong
+Reviewer: Nguyen Manh Tien
+
+1. Design the sequence diagram for use case: Exit with 24-hour ticket
+- Error(s): 0
+- Comments:
+	* Các comment trong pull: https://bitbucket.org/tientt_glose/isd.vn.20191-09/pull-requests/45/week4-tranvanthong/activity
+	- Nhìn chung tạm ổn
+- Proposals for Corrections (gợi ý sửa): 0
+===================================================================================================================================================
+Description of the assignment: 
+	- Design the sequence diagram for use case: Exit with prepaid card
+Doer: Nguyễn Đình Thơ
+Reviewer: Phạm Hữu Thọ
+
+1. Design the sequence diagram for use case: Exit with prepaid card
+- Error(s): 1 
+- Comments: 
+	* Các comment trong pull: https://bitbucket.org/tientt_glose/isd.vn.20191-09/pull-requests/43/week4-nguyendinhtho/activity
+	- Không còn gì nhiều phải sửa. Chỉ có một lỗi nhỏ.
+- Proposals for Corrections (gợi ý sửa):
+	+ Sửa lại can embark vào đúng thuộc tính cho nó thể hiện <<can embark>> (thay name thành một mục trong stereotype)
+	+ Đặt các sọc đứng (|) cho dài ngang ngang nhau nhìn cho dễ
+===================================================================================================================================================
+Description of the assignment: 
+	- Design the sequence diagram for use case: Enter and Exit with one-way ticket
+Doer: Nguyễn Mạnh Tiến
+Reviewer: Nguyễn Đình Thơ
+
+1. Design the sequence diagram for use case: Enter with one-way ticket
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):
+2. Design the sequence diagram for use case: Exit with one-way ticket
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):

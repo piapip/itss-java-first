@@ -1,0 +1,14 @@
+﻿Homework 04 - Sequence Diagram
+GROUP 9 (ISD.VN.20191-09)
+
+Description of the assignment: 
+	- Design the sequence diagram for use case: Enter with prepaid card
+Doer: Pham Huu Tho
+Reviewer: Phung Thi Trang
+
+Design the sequence diagram for use case: Enter with prepaid card
+- Error(s): 0
+- Comments:
+- Proposals for Corrections (gợi ý sửa): 
+	+ Em chỉ có ý kiến nho nhỏ là mình có nên cho thêm 1.1.3 là check trạng thái của card, ví dụ lần đầu sử dụng card có trạng thái new, lần thứ 2 sử dụng mà hợp lệ thì nó chuyển đến trạng thái valid ,... (checked and rejected)
+					 

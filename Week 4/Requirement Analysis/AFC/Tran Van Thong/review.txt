@@ -1,0 +1,51 @@
+﻿Homework 03 - RequirementAnalysis
+GROUP 9 (ISD.VN.20191-09)
+
+Description of the assignment: 
+	* Glossary related to: **Exit the platform**
+	* Do the specification for use case: **Exit the platform**
+	* Do the supplementary specification for the SRS
+
+Doer: Trần Văn Thông
+Reviewer: Nguyễn Đình Thơ
+
+1. Glossary related to: Exit the platform
+- Error(s): 0
+- Comments: Đẩy đủ và dễ hiểu 
+- Proposals for Corrections (gợi ý sửa): Không có
+
+2. Do the specification for use case: Exit the platform
+- Error(s): 0
+- Comments: Good
+- Proposals for Corrections (gợi ý sửa): Không có 
+
+3. Do the supplementary specification for the SRS
+- Error(s): 0
+- Comments: Chưa đầy đủ lắm
+- Proposals for Corrections (gợi ý sửa): Cần thêm các đặc tả đặc biệt cho SRS . Ví dụ như Funtionality , ...
+
+Reviewer: Nguyễn Mạnh Tiến
+	 Do the specification for use case: Exit the platform
+- Error(s): 1
+- Comments: 
+	+ Mô tả nên viết sát với usecase, hạn chế nói đến gate vì nó thuộc usecase khác. (đơn giản người dùng quét vé và đi vào ga, 
+		đóng mở cửa thế nào do usecase khác liên quan đến gate và hệ thống)
+    + Luồng sự kiện:
+		` Sai: Gate đâu có kiểm tra thông tin vé, thẻ 
+		` Có thể đơn giản hóa luồng sự kiện vì chúng ta có mô tả chi tiết các luông sự kiện scan từng vé. Vì thế các luồng ngoại lệ
+    của hệ thống, và tác nhân có thể giản lược. Ví dụ tác nhân đơn giản chỉ là quét travelling certificate và 
+    hệ thống chỉ là check thông tin travelling certificate (hợp lệ là luồng thành công; không hợp lệ là luồng ngoại lệ) 
+	--> Không cần nói quá rõ sẽ in ra thông tin gì. 
+    + Biểu đồ hoạt đông: 
+        `Bỏ hình thoi điều kiện giải quyết hay không giải quyết. vì khi không hợp lệ người dùng phải làm gì đó để hợp lệ (về đúng ga, sử dụng đúng vé hợp lệ).
+        `Sau khi 2 hàng động go to station và use valid ticket kết thúc thì hiển thị không hợp lệ và cụm hành động cũng nhập vào và nối về put the ticket
+		`Vẽ sát với usecase. Khong có tác nhân gate. Hệ thống chỉ hiển thị thông tin hợp lệ, diễn ra song với việc người dùng 
+        qua cửa. ==> vì thế 2 hành động này xảy ra song song rồi đến kết thúc. Cuối cùng là kết thúc toàn bộ usecase này, 
+        thì luồng sự kiện này phải có hậu điều kiện là: hệ thống phải thực hiện xong usecase "Control the gate" để mở cửa, ngay sau khi hiển thị
+        thông tin hợp lệ với người dùng. Nếu hậu điều kiện thỏa mãn thì usecase "Enter the station" mới kết thúc. 
+        ` Sau joinnode giữa "embark" và "Display valid information" thì kết thúc toàn usecase luôn
+		` "embark" -> "disembark" 
+		` "put" -> "insert" 
+		` "Dis ..." -> "Display valid information" / "Display invalid information"
+- Proposals for Corrections (gợi ý sửa):
+

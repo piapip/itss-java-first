@@ -1,0 +1,205 @@
+﻿Homework 03 - RequirementAnalysis
+GROUP 9 (ISD.VN.20191-09)
+
+===================================================================================================================================================
+
+Doer: Nguyễn Mạnh Tiến
+Reviewer: Phùng Thị Trang
+Description of the assignment: 
+	- Clean team's repository
+	- Review the team's bitbucket repo fork process
+	- Update last week homework (use case) based on comments and discussion on class
+	- Glossary related to: Scan one-way ticket; All system
+	- Do the specification for use case: Scan one-way ticket
+	- Do the business process for the SRS
+    - Do the supplementary specification for the SRS
+	- Edit, proofread and improve the SRS from the team member's assignment.
+
+ Do the specification for use case: Scan one-way ticket
+- Error(s): 1
+- Comments: + Mình chỉ có ý kiến nho nhỏ là chỗ luồng của biểu đồ hoạt động, phần tác nhân thì khong nên ghi cả System vào vì System ở đây không phải là tác nhân, nhưng nó vẫn có trong luồng hoạt động
+				Tien: checked and fixed	  
+
+===================================================================================================================================================
+
+Doer: Phạm Hữu Thọ
+Reviewer: Nguyễn Mạnh Tiến
+
+Description of the assignment: 
+* Glossary related to: **Enter the platform**
+* Do the specification for use case: **Enter the platform**
+* Do the supplementary specification for the SRS
+
+ Do the specification for use case: Enter the platform
+- Error(s): 3
+- Comments:
+    + A Inclue B là quan hệ tức là usecase B phải được hoàn thành xong trước khi usecase A kết thúc. Và 
+        trong khi thực hiện usecase A chắc chắn phải thực hiện use case B. (checked and fixed)
+        ==> tiền điều kiện của anh là vô lý khi nói quét vé rồi mới enter. Khi chạy usecase enter, qua một số hành động\
+        nào đó, nó sẽ gọi cái include là scan. (checked and fixed)
+    + Thống nhất gate chỉ là việc đóng/mở nên toàn bộ việc hiển thị thông tin sẽ là hoạt động của system. (checked and fixed)
+    + Có thể đơn giản hóa luống sự kiện vì chúng ta có mô tả chi tiết các luông sự kiện scan từng vé. Vì thế các luồng ngoại lệ
+    của hệ thống, và tác nhân có thể giản lược. Ví dụ tác nhân đơn giản chỉ là quét travelling certificate và hệ thống chỉ là 
+    check thông tin travelling certificate (hợp lệ là luồng thành công; không hợp lệ là luồng ngoại lệ) (checked and rejected)
+    + Biểu đồ hoạt đông:  
+        `Vẽ sát với usecase. Không có tác nhân gate. (checked and fixed)
+	Hệ thống chỉ hiển thị thông tin hợp lệ, diễn ra song với việc người dùng qua cửa. ==> vì thế 2 hành động này xảy ra song song 
+	rồi đến kết thúc. Cuối cùng là kết thúc toàn bộ usecase này, thì luồng sự kiện này phải có hậu điều kiện là: hệ thống phải 
+	thực hiện xong usecase "Control the gate" để mở cổng, ngay sau khi hiển thị thông tin hợp lệ với người dùng. Nếu hậu điều kiện 
+	thỏa mãn thì usecase "Enter the station" mới kết thúc. 	
+    + Việc đặt tên file tốt
+- Proposals for Corrections (gợi ý sửa):
+    + Mô tả nên viết rõ hơn, sơ lược tổng quan về toàn bộ usecase. Người dùng đi qua cổng soát vé là đi như thế nào? 
+    + Biểu đồ hoạt đông: 
+        `Bỏ hình thoi điều kiện có hay không có vé/thẻ. vì khi không hợp lệ người dùng phải đi mua vé hoặc mua-nạp thẻ.
+         sau ba hành động song song kia thì chỉ hẳn về scan sẽ đơn giản hơn rất nhiều. (checked and fixed) 
+        ` "pass the checkpoint" -> "embark the station" (checked and fixed)
+        ` "Show ..." -> "Display valid information" / "Display invalid information" (checked and fixed)
+    + Xóa *HINT (checked and fixed)  
+
+===================================================================================================================================================
+
+Doer: Phùng Thị Trang
+Reviewer: Phạm Hữu Thọ
+
+Description of the assignment: 
+	1. Glossary related to: Control the gate; Scan 24-hour ticket
+	2. Do the specification for use case: Control the gate; Scan 24-hour ticket
+	3. Do the supplementary specification for the SRS
+
+1. Glossary related to: Control the gate; Scan 24-hour ticket
+1.1 Control the gate
+- Error(s): 0
+- Comments: Looks good.
+- Proposals for Corrections (gợi ý sửa): No proposal.
+
+1.2 Scan 24-hour ticket
+- Error(s): 0
+- Comments: Looks good.
+- Proposals for Corrections (gợi ý sửa): No proposal.
+
+2. Do the specification for use case: Control the gate; Scan 24-hour ticket
+2.1 Control the gate
+- Error(s): 1
+- Comments: The activity diagram looks nice. 
+- Proposals for Corrections (gợi ý sửa): Tác nhân chỉ có gate thôi nhỉ?
+
+2.2 Scan 24-hour ticket
+- Error(s): 1
+- Comments: The activity diagram looks nice.
+- Proposals for Corrections (gợi ý sửa): Tác nhân chỉ có Ticket recognizer và Card Scanner (thêm nó vào)
+thôi nhỉ?
+
+3. Do the supplementary specification for the SRS
+- Error(s): 0
+- Comments: Could have one more specification.
+- Proposals for Corrections (gợi ý sửa): Add Correctness. To make sure that the gate keep closing if 
+the card is unqualified.
+
+Reviewer: Nguyễn Mạnh Tiến
+
+2. Do the specification for use case: Control the gate; Scan 24-hour ticket
+2.1 Control the gate
+- Error(s): 1
+- Comments: + luồng sự kiện:
+				Không có tác nhân passenger 
+				Luông chính-> Hệ thống: phát lệnh mở cửa -> gate: mở 
+				Luồng thay thế -> Hệ thống: phát lệnh đóng cửa -> gate: đóng
+			+ Biểu đồ hoạt động: vẽ cũng trở nên đơn giản hơn (tham khảo: https://scontent.fhan3-1.fna.fbcdn.net/v/t1.15752-9/71519554_1105109046361297_725438479013511168_n.png?_nc_cat=111&_nc_oc=AQnEu8UuyCGIlqIK45MfD-2eNVFsA7d1oKYtwQS3lb0dNgXZm0PZCcF8_E8boHeo7cU&_nc_ht=scontent.fhan3-1.fna&oh=528de324d985e490385ec68a7fec837d&oe=5E36FD66)
+2.2 Scan 24-hour ticket
+- Error(s): 1
+- Comments: + SỬa một số lỗi text
+			+ Luồng sự kiện:
+				`Luồng chính 4 --> " chấp nhận vé hợp lệ (điều kiện thành công/kết thúc của luồng)"=> ta không đề cập đến việc đi thực hiện usecase nào tiếp nữa, và tập trung vào việc
+				kết thúc luồng, khi nào luồng thành công? 
+				`Luồng ngoại lệ: đọc xong thông tin vậy thì làm gì tiếp để khi quay lại luồng chính chạy tiếp sẽ kết thúc/thành công?
+				==> nếu chỉ để là xem thông tin thế thì usecase này không mang lại kết quả gì. người dùng luôn muốn quét vé được hợp lệ để họ có thể đi qua checkpoint. 
+			+ Biểu đồ hoạt động: 
+				`Vẽ sát theo usecase. Trong biểu đồ hành động có hành động "Control the gate" trong khi đó nó hẳn là 1 usecase
+				`Tham khảo qua sơ đồ scan one-way ticket của mình và vẽ lại tương tự nhé. Vì thế kia nếu là invalid thì usecase mãi ko kết thúc à!
+				`"Check" --> "Check information"
+			+ Thêm tiền tố [AD] tên file astah và [AD_Preview] trên file ảnh để người ta biết đó là biểu đồ gì nhé. 
+comment: Trang đã xem và tiếp thu ý kiến của mọi người rồi nhé :))
+
+===================================================================================================================================================
+
+Doer: Trần Văn Thông
+Reviewer: Nguyễn Đình Thơ
+
+Description of the assignment: 
+	* Glossary related to: **Exit the platform**
+	* Do the specification for use case: **Exit the platform**
+	* Do the supplementary specification for the SRS
+
+1. Glossary related to: Exit the platform
+- Error(s): 0
+- Comments: Đẩy đủ và dễ hiểu 
+- Proposals for Corrections (gợi ý sửa): Không có
+
+2. Do the specification for use case: Exit the platform
+- Error(s): 0
+- Comments: Good
+- Proposals for Corrections (gợi ý sửa): Không có 
+
+3. Do the supplementary specification for the SRS
+- Error(s): 0
+- Comments: Chưa đầy đủ lắm
+- Proposals for Corrections (gợi ý sửa): Cần thêm các đặc tả đặc biệt cho SRS . Ví dụ như Funtionality , ...
+
+Reviewer: Nguyễn Mạnh Tiến
+
+	 Do the specification for use case: Exit the platform
+- Error(s): 1
+- Comments: 
+	+ Mô tả nên viết sát với usecase, hạn chế nói đến gate vì nó thuộc usecase khác. (đơn giản người dùng quét vé và đi vào ga, 
+		đóng mở cửa thế nào do usecase khác liên quan đến gate và hệ thống)
+    + Luồng sự kiện:
+		` Sai: Gate đâu có kiểm tra thông tin vé, thẻ 
+		` Có thể đơn giản hóa luồng sự kiện vì chúng ta có mô tả chi tiết các luông sự kiện scan từng vé. Vì thế các luồng ngoại lệ
+    của hệ thống, và tác nhân có thể giản lược. Ví dụ tác nhân đơn giản chỉ là quét travelling certificate và 
+    hệ thống chỉ là check thông tin travelling certificate (hợp lệ là luồng thành công; không hợp lệ là luồng ngoại lệ) 
+	--> Không cần nói quá rõ sẽ in ra thông tin gì. 
+    + Biểu đồ hoạt đông: 
+        `Bỏ hình thoi điều kiện giải quyết hay không giải quyết. vì khi không hợp lệ người dùng phải làm gì đó để hợp lệ (về đúng ga, sử dụng đúng vé hợp lệ).
+        `Sau khi 2 hàng động go to station và use valid ticket kết thúc thì hiển thị không hợp lệ và cụm hành động cũng nhập vào và nối về put the ticket
+		`Vẽ sát với usecase. Khong có tác nhân gate. Hệ thống chỉ hiển thị thông tin hợp lệ, diễn ra song với việc người dùng 
+        qua cửa. ==> vì thế 2 hành động này xảy ra song song rồi đến kết thúc. Cuối cùng là kết thúc toàn bộ usecase này, 
+        thì luồng sự kiện này phải có hậu điều kiện là: hệ thống phải thực hiện xong usecase "Control the gate" để mở cửa, ngay sau khi hiển thị
+        thông tin hợp lệ với người dùng. Nếu hậu điều kiện thỏa mãn thì usecase "Enter the station" mới kết thúc. 
+        ` Sau joinnode giữa "embark" và "Display valid information" thì kết thúc toàn usecase luôn
+		` "embark" -> "disembark" 
+		` "put" -> "insert" 
+		` "Dis ..." -> "Display valid information" / "Display invalid information"
+- Proposals for Corrections (gợi ý sửa):
+
+===================================================================================================================================================
+
+Doer: Nguyễn Đình Thơ
+Reviewer: Nguyễn Mạnh Tiến
+
+Description of the assignment: 
+- Glossary related to: Scan prepaid card
+- Do the specification for use case: Scan prepaid card
+- Do the supplementary specification for the SRS
+
+    Do the specification for use case: Scan prepaid card 
+- Error(s): 1 
+- Comments:
+    + File "Homework 3 individual assignment" nên sửa thành "[Thơ] Homework 3 individual assignment"
+        ==> Người chấm điểm còn biết đang mở file của ai
+    + Flow of event: Sơ sài; làm sát với biểu đồ usecase, không có gì liên quan đến cái cửa trong luồng sự kiện,
+    luồng này chỉ đơn giản là việc thông báo hợp lệ cho người dùng là điều kiện thành công;
+    số 2 luồng chính cần nói rõ TH nào thẻ hợp lệ và không hợp lệ (rẽ ra luồng ngoại lệ nào);
+    luồng ngoại lệ các tác nhân phải làm gì để khi quay lại luồng chính, được duyệt là hợp lệ và chạy tiếp luồng chính.;
+    + Thống nhất về mặt ngôn ngữ: đã viết "cửa" thì là "cửa" tất, không thể tự nhiên có chữ "cổng" 
+    + Biểu đồ hoạt động: 
+        `Lỗi sai: ``thế nếu check thông tin sai mà chỉ về kiểm tra thông tin tiếp thì nó làm gì tiếp (vòng lặp vô hạn)
+                        ==> vậy nếu sai thì người dùng phải làm gì tiếp để khi đưa thẻ check thông tin nó là hợp lệ. 
+                  Không có tác nhân gate
+        `Nên chuyển hết thành tiếng anh. Có tên biểu đồ (hình và file để là activity Diagram0) ==> tham khảo cách đặt tên của em nhé 
+        `Có những 2 file astah kèm theo 2 file ảnh, xử lý up lại 1 file duy nhất kèm tên rõ ràng 
+    + Xóa những dòng *HINT đi, 1 usecase thì không cần để tên đề mục, đã đề cập rất rõ trong HINT
+    + Xóa những thứ thừa, không dùng đến như row của bảng
+- Proposals for Corrections (gợi ý sửa): Đã đề cập kèm ở trên
+
+==> Nhìn chung bài còn hơi sơ sài, anh cân nhắc bổ sung nhé!  

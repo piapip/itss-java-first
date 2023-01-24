@@ -1,0 +1,11 @@
+﻿Homework 1.5 - Usecase Diagram - Part 2
+GROUP 9
+Description of the assignment: 
+	Design flow of events for use cases:
+        Entering the platform
+Doer: Phạm Hữu Thọ
+Reviewer: Nguyễn Đình Thơ
+Entering the platform
+- Error(s): 0
+- Comments: Rất đầy đủ và chi tiết. các luồng sự kiện dễ đọc , dễ hiểu
+- Proposals for Corrections (gợi ý sửa): Không có

@@ -1,0 +1,12 @@
+﻿Homework 1.5 - Usecase Diagram - Part 2
+GROUP 9
+Description of the assignment: 
+	Design flow of events for use cases:
+	Exit the platform
+Doer: Trần Văn Thông
+Reviewer: Phạm Hữu Thọ
+1. Exit the platform
+- Error(s): No error 
+- Comments: The alternative flow needs one more situation, when the user's ticket gets rejected.
+- Proposals for Corrections (gợi ý sửa): Add one more situation
+

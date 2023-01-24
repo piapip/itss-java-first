@@ -1,0 +1,14 @@
+﻿Homework 04 - Sequence Diagram
+GROUP 9 (ISD.VN.20191-09)
+
+Description of the assignment: 
+	- Design the sequence diagram for use case: Exit with prepaid card
+Doer: Nguyễn Đình Thơ
+Reviewer: Phạm Hữu Thọ
+
+1. Design the sequence diagram for use case: Exit with prepaid card
+- Error(s): 1 
+- Comments: Không còn gì nhiều phải sửa. Chỉ có một lỗi nhỏ.
+- Proposals for Corrections (gợi ý sửa):
+	+ Sửa lại can embark vào đúng thuộc tính cho nó thể hiện <<can embark>> (thay name thành một mục trong stereotype)
+	+ Đặt các sọc đứng (|) cho dài ngang ngang nhau nhìn cho dễ

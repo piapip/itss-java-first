@@ -1,0 +1,12 @@
+﻿Homework 04 - Sequence Diagram
+GROUP 9 (ISD.VN.20191-09)
+
+Description of the assignment: 
+	- Design the sequence diagram for use case: Enter with 24-hour ticket
+Doer: Phùng Thị Trang
+Reviewer: Trần Văn Thông
+
+1. Design the sequence diagram for use case: 
+- Error(s): Tên của usecase là Enter with 24-hour ticket còn ở trên diagram là Enter with ticket 24-hour
+- Comments:- Thể hiện được đầy đủ các bước trong use case Enter with 24-hour ticket. 
+- Proposals for Corrections (gợi ý sửa): Sửa tên diagram thành Enter with 24-hour ticket

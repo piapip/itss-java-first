@@ -1,0 +1,24 @@
+﻿Homework 07 - Week 7 - Detailed Design - Data Modeling
+GROUP 9 (ISD.VN.20191-09)
+
+Description of the assignment: 
+	* Design the AFC Conceptual ER Diagram: Prepaid Card 
+	* Update the file [ISD.VN.20191-09] AFC Conceptual ER Diagram.drawio with your AFC Conceptual ER Diagram.drawio: Prepaid Card
+	* In the SDD file, write a detail design of element: PrepaidCard;
+Doer: Pham Huu Tho
+Reviewer: Nguyen Manh Tien
+
+1. Design the AFC Conceptual ER Diagram: Prepaid Card 
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):
+
+2. Update the file [ISD.VN.20191-09] AFC Conceptual ER Diagram.drawio with your AFC Conceptual ER Diagram.drawio: Prepaid Card
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):
+
+3. In the SDD file, write a detail design of element: PrepaidCard;
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):

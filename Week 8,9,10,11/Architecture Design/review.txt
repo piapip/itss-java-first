@@ -1,0 +1,105 @@
+﻿Homework 05 - Week 5 - Comunication Diagram And Class Diagram
+GROUP 9 (ISD.VN.20191-09)
+
+===================================================================================================================================================
+Description of the assignment: 
+	- [DONE] Update & renew the SRS and the activity diagram for the usecase: **Enter with prepaid card**
+	- [DONE] Update the sequence diagrams based on comments and discussion on class for use case: **Enter with prepaid card**
+	- [DONE] Design the communication diagram for use case: **Enter with prepaid card**
+	- [DONE] Design the analysis class diagram for use case: **Enter with prepaid card**
+Doer: Pham Huu Tho
+Reviewer: Nguyen Manh Tien 
+
+Comment in pull request by Tien: https://bitbucket.org/tientt_glose/isd.vn.20191-09/pull-requests/55/week5-phamhuutho/activity
+
+1. Update & renew the SRS and the activity diagram for the usecase: **Enter with prepaid card**
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):
+2. Update the sequence diagrams based on comments and discussion on class for use case: **Enter with prepaid card**
+- Error(s): 
+- Comments: Có thể không cần dùng đến message create cho thực thể trip information. Vì có thể là một thực thể ko có dư liệu cho tới khi có giao 
+dịch phát sinh thì chỉ việc lưu vào thôi. 
+- Proposals for Corrections (gợi ý sửa):
+3. Design the communication diagram for use case: **Enter with prepaid card**
+- Error(s): 
+- Comments: No comment	
+- Proposals for Corrections (gợi ý sửa):
+4. Design the analysis class diagram for use case: **Enter with prepaid card**
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):
+===================================================================================================================================================
+Description of the assignment: 
+	- [DONE] [Optional] Update & renew the SRS and the activity diagram for the usecase: Enter/Exit with one-way ticket
+	- [DONE] Update the sequence diagrams based on comments and discussion on class for use case: Enter/Exit with one-way ticket
+	- [DONE] Design the communication diagram for use case: Enter/Exit with one-way ticket
+	- [DONE] Design the analysis class diagram for use case: Enter/Exit with one-way ticket
+	- [DONE] Design the combined class diagram of AFC system
+Doer: Nguyen Manh Tien
+Reviewer: Tran Van Thong 
+
+1. Update & renew the SRS and the activity diagram for the usecase: **Enter with prepaid card**
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):
+2. Update the sequence diagrams based on comments and discussion on class for use case: **Enter with prepaid card**
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):
+3. Design the communication diagram for use case: **Enter with prepaid card**
+- Error(s): 
+- Comments: No comment	
+- Proposals for Corrections (gợi ý sửa):
+4. Design the analysis class diagram for use case: **Enter with prepaid card**
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):
+5. Design the combined class diagram of AFC system
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):
+===================================================================================================================================================
+Description of the assignment: 
+* [DONE] Update the sequence diagrams based on comments and discussion on class for use case: **Enter prepaid card**
+* [DONE] Design the communication diagram for use case: **Enter with prepaid card**
+* [DONE] Design the analysis class diagram for use case: **Enter with prepaid card**
+* [DONE] Design the combined class diagram of AFC system
+Doer: Nguyễn Đình Thơ
+Reviewer: Phùng Thị Trang
+Note: Trang mới sửa máy, gặp vấn đề với việc dùng git ở local, nên không tạo được pull tuần này ạ. Nhóm trưởng nhận file và tự cập nhật vào ạ!
+
+Comment in pull request by Tien: https://bitbucket.org/tientt_glose/isd.vn.20191-09/pull-requests/57/week5-nguyendinhtho/activity
+
+1. Update the sequence diagrams based on comments and discussion on class for use case: **Enter prepaid card**
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):
+2. Design the communication diagram for use case: **Enter with prepaid card**
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):
+3. Design the analysis class diagram for use case: **Enter with prepaid card**
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):
+3. Design the combined class diagram of AFC system
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):
+===================================================================================================================================================
+Description of the assignment: 
+	- [DONE] [Optional] Update & renew the SRS and the activity diagram for the usecase: Exit with 24-hour ticket
+	- [DONE] Update the sequence diagrams based on comments and discussion on class for use case: Exit with 24-hour ticket
+	- [DONE] Design the communication diagram for use case: Exit with 24-hour ticket
+	- [DONE] Design the analysis class diagram for use case: Exit with 24-hour ticket
+
+Doer: Tran Van Thong
+Reviewer: Pham Huu Tho
+
+Comment in pull request by Tien: https://bitbucket.org/tientt_glose/isd.vn.20191-09/pull-requests/56/week5-tranvanthong/activity
+
+
+Exit with 24-hour ticket
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):
+===================================================================================================================================================

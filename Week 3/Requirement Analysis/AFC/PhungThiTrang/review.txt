@@ -1,0 +1,62 @@
+﻿Homework 03 - RequirementAnalysis
+GROUP 9 (ISD.VN.20191-09)
+
+Description of the assignment: 
+	1. Glossary related to: Control the gate; Scan 24-hour ticket
+	2. Do the specification for use case: Control the gate; Scan 24-hour ticket
+	3. Do the supplementary specification for the SRS
+Doer: Phùng Thị Trang
+Reviewer: Phạm Hữu Thọ
+
+1. Glossary related to: Control the gate; Scan 24-hour ticket
+1.1 Control the gate
+- Error(s): 0
+- Comments: Looks good.
+- Proposals for Corrections (gợi ý sửa): No proposal.
+
+1.2 Scan 24-hour ticket
+- Error(s): 0
+- Comments: Looks good.
+- Proposals for Corrections (gợi ý sửa): No proposal.
+
+2. Do the specification for use case: Control the gate; Scan 24-hour ticket
+2.1 Control the gate
+- Error(s): 1
+- Comments: The activity diagram looks nice. 
+- Proposals for Corrections (gợi ý sửa): Tác nhân chỉ có gate thôi nhỉ?
+
+2.2 Scan 24-hour ticket
+- Error(s): 1
+- Comments: The activity diagram looks nice.
+- Proposals for Corrections (gợi ý sửa): Tác nhân chỉ có Ticket recognizer và Card Scanner (thêm nó vào)
+thôi nhỉ?
+
+3. Do the supplementary specification for the SRS
+- Error(s): 0
+- Comments: Could have one more specification.
+- Proposals for Corrections (gợi ý sửa): Add Correctness. To make sure that the gate keep closing if 
+the card is unqualified.
+
+Reviewer: Nguyễn Mạnh Tiến
+2. Do the specification for use case: Control the gate; Scan 24-hour ticket
+2.1 Control the gate
+- Error(s): 1
+- Comments: + luồng sự kiện:
+				Không có tác nhân passenger 
+				Luông chính-> Hệ thống: phát lệnh mở cửa -> gate: mở 
+				Luồng thay thế -> Hệ thống: phát lệnh đóng cửa -> gate: đóng
+			+ Biểu đồ hoạt động: vẽ cũng trở nên đơn giản hơn (tham khảo: https://scontent.fhan3-1.fna.fbcdn.net/v/t1.15752-9/71519554_1105109046361297_725438479013511168_n.png?_nc_cat=111&_nc_oc=AQnEu8UuyCGIlqIK45MfD-2eNVFsA7d1oKYtwQS3lb0dNgXZm0PZCcF8_E8boHeo7cU&_nc_ht=scontent.fhan3-1.fna&oh=528de324d985e490385ec68a7fec837d&oe=5E36FD66)
+2.2 Scan 24-hour ticket
+- Error(s): 1
+- Comments: + SỬa một số lỗi text
+			+ Luồng sự kiện:
+				`Luồng chính 4 --> " chấp nhận vé hợp lệ (điều kiện thành công/kết thúc của luồng)"=> ta không đề cập đến việc đi thực hiện usecase nào tiếp nữa, và tập trung vào việc
+				kết thúc luồng, khi nào luồng thành công? 
+				`Luồng ngoại lệ: đọc xong thông tin vậy thì làm gì tiếp để khi quay lại luồng chính chạy tiếp sẽ kết thúc/thành công?
+				==> nếu chỉ để là xem thông tin thế thì usecase này không mang lại kết quả gì. người dùng luôn muốn quét vé được hợp lệ để họ có thể đi qua checkpoint. 
+			+ Biểu đồ hoạt động: 
+				`Vẽ sát theo usecase. Trong biểu đồ hành động có hành động "Control the gate" trong khi đó nó hẳn là 1 usecase
+				`Tham khảo qua sơ đồ scan one-way ticket của mình và vẽ lại tương tự nhé. Vì thế kia nếu là invalid thì usecase mãi ko kết thúc à!
+				`"Check" --> "Check information"
+			+ Thêm tiền tố [AD] tên file astah và [AD_Preview] trên file ảnh để người ta biết đó là biểu đồ gì nhé. 
+comment: Trang đã xem và tiếp thu ý kiến của mọi người rồi nhé :))

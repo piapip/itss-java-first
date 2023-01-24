@@ -1,0 +1,15 @@
+﻿Homework 06 - Week 6 - Detailed Design - Class Design 
+GROUP 9 (ISD.VN.20191-09)
+
+Description of the assignment: 
+	* Design the detailed class: AFCCaculate; TravelCertificateInformation; GateInterface; AFCControllerOneWay;
+	
+Doer: Phung Thi Trang
+Reviewer: Nguyen Manh Tien 
+
+1. Design the detailed class: AFCCaculate; TravelCertificateInformation; GateInterface; AFCControllerOneWay;
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):
+
+

@@ -1,0 +1,38 @@
+﻿Homework 03 - RequirementAnalysis
+GROUP 9 (ISD.VN.20191-09)
+
+Description of the assignment: 
+* Glossary related to: **Enter the platform**
+* Do the specification for use case: **Enter the platform**
+* Do the supplementary specification for the SRS
+
+Doer: Phạm Hữu Thọ
+Reviewer: Nguyễn Mạnh Tiến
+
+ Do the specification for use case: Enter the platform
+- Error(s): 3
+- Comments:
+    + A Inclue B là quan hệ tức là usecase B phải được hoàn thành xong trước khi usecase A kết thúc. Và 
+        trong khi thực hiện usecase A chắc chắn phải thực hiện use case B. (checked and fixed)
+        ==> tiền điều kiện của anh là vô lý khi nói quét vé rồi mới enter. Khi chạy usecase enter, qua một số hành động\
+        nào đó, nó sẽ gọi cái include là scan. (checked and fixed)
+    + Thống nhất gate chỉ là việc đóng/mở nên toàn bộ việc hiển thị thông tin sẽ là hoạt động của system. (checked and fixed)
+    + Có thể đơn giản hóa luống sự kiện vì chúng ta có mô tả chi tiết các luông sự kiện scan từng vé. Vì thế các luồng ngoại lệ
+    của hệ thống, và tác nhân có thể giản lược. Ví dụ tác nhân đơn giản chỉ là quét travelling certificate và hệ thống chỉ là 
+    check thông tin travelling certificate (hợp lệ là luồng thành công; không hợp lệ là luồng ngoại lệ) (checked and rejected)
+    + Biểu đồ hoạt đông:  
+        `Vẽ sát với usecase. Không có tác nhân gate. (checked and fixed)
+	Hệ thống chỉ hiển thị thông tin hợp lệ, diễn ra song với việc người dùng qua cửa. ==> vì thế 2 hành động này xảy ra song song 
+	rồi đến kết thúc. Cuối cùng là kết thúc toàn bộ usecase này, thì luồng sự kiện này phải có hậu điều kiện là: hệ thống phải 
+	thực hiện xong usecase "Control the gate" để mở cổng, ngay sau khi hiển thị thông tin hợp lệ với người dùng. Nếu hậu điều kiện 
+	thỏa mãn thì usecase "Enter the station" mới kết thúc. 	
+    + Việc đặt tên file tốt
+- Proposals for Corrections (gợi ý sửa):
+    + Mô tả nên viết rõ hơn, sơ lược tổng quan về toàn bộ usecase. Người dùng đi qua cổng soát vé là đi như thế nào? 
+    + Biểu đồ hoạt đông: 
+        `Bỏ hình thoi điều kiện có hay không có vé/thẻ. vì khi không hợp lệ người dùng phải đi mua vé hoặc mua-nạp thẻ.
+         sau ba hành động song song kia thì chỉ hẳn về scan sẽ đơn giản hơn rất nhiều. (checked and fixed) 
+        ` "pass the checkpoint" -> "embark the station" (checked and fixed)
+        ` "Show ..." -> "Display valid information" / "Display invalid information" (checked and fixed)
+    + Xóa *HINT (checked and fixed)  
+

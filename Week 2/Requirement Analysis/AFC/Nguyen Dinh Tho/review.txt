@@ -1,0 +1,15 @@
+﻿Homework 1.5 - Usecase Diagram - Part 2
+GROUP 9
+Description of the assignment: 
+	Design flow of events for use cases:
+    1. Scan prepaid card
+    
+Doer: Nguyễn Đình Thơ
+Reviewer: Phùng Thị Trang
+
+1. Scan prepaid card
+- Error(s): 
+- Comments: các hàng không dùng tới thì xóa đi , nhìn cho đẹp , phần luồng có vẻ sơ sài quá, nên viết chi tiết 
+- Proposals for Corrections (gợi ý sửa):
+ví dụ: trường hợp kiểm tra thông tin thẻ mà hợp lệ phải nói hợp lệ ở đây là gì? (đúng id, số tiền trong thẻ đủ để đi đến ga khác ...)--> hệ thống thông báo và chuyển sang luồng khác (control the gate, display information of the ticket/card)
+thẻ không hợp lệ : thiếu tiền, sai id ...--> hệ thống thông báo và chuyển sang luồng khác (control the gate, display information of the ticket/card)

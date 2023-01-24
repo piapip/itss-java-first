@@ -1,0 +1,24 @@
+﻿Homework 07 - Week 7 - Detailed Design - Data Modeling
+GROUP 9 (ISD.VN.20191-09)
+
+Description of the assignment: 
+	* Design the AFC Logical ER Diagram: Prepaid Card
+	* Update the file [ISD.VN.20191-09] AFC Logical ER Diagram.asta with your AFC Logical ER Diagram: PrepaidCard
+	* In the SDD file, write a detail design of element: StationSystem;
+Doer: Nguyen Dinh Tho
+Reviewer: Phung Thi Trang
+
+1. Design the AFC Logical ER Diagram: Prepaid Card
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):
+
+2. Update the file [ISD.VN.20191-09] AFC Logical ER Diagram.asta with your AFC Logical ER Diagram: PrepaidCard
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):
+
+3. In the SDD file, write a detail design of element: StationSystem;
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):

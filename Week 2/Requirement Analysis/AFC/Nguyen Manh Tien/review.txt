@@ -1,0 +1,20 @@
+﻿Homework 1.5 - Usecase Diagram - Part 2
+GROUP 9
+Description of the assignment: 
+	Design flow of events for use cases:
+    1. Scan one-way ticket
+    2. Scan 24-hour ticket
+Doer: Nguyễn Mạnh Tiến
+Reviewer: Trần Văn Thông
+1. Scan one-way ticket
+- Error(s): 0
+- Comments: - Phần mô tả chi tiết, rõ ràng.
+	    - Phân tích luồng sự kiện hợp lý, dễ hiểu.
+	    - Phần tác nhân hệ thống giải thích đủ ý, chia ra đầy đủ các trường hợp.
+- Proposals for Corrections (gợi ý sửa): Không có.
+2. Scan 24-hour ticket
+- Error(s): 0
+- Comments: - Phần mô tả rõ ràng về 24-hour ticket.
+	    - Luồng sự kiện được phân tích hợp lý.
+	    - Phần tác nhân hệ thống được nêu từng bước rõ ràng, dễ nắm bắt.
+- Proposals for Corrections (gợi ý sửa): Không có.

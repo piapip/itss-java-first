@@ -1,0 +1,22 @@
+Homework 1.5 - Usecase Diagram - Part 2
+GROUP 9
+Description of the assignment: 
+	Design flow of events for use cases:
+    1. Control the gate
+    2. Display information of the ticket/card
+Doer: Phùng Thị Trang
+Reviewer: Nguyễn Mạnh Tiến
+1. Control the gate
+- Error(s): 0 (Comment dưới là dựa trên ý kiến cá nhân tôi, nghĩ sẽ là đúng hơn. Có gì thứ 2 tuần sau sẽ hỏi anh Kỳ hoặc cô Trang)
+- Comments: Phần mô tả đủ, trình bày ổn. Tuy nhiên, ở bài của bạn đang viết luồng chính khi gặp trường hợp "không hợp lệ" sẽ thành một luồng thay thế luôn. Còn trên quan điểm của mình, 
+thì với TH trên sẽ gọi một luồng ngoại lệ, xử lý vấn đề đó rồi quay trở lại thực hiện luồng chính. Vì mỗi usecase, khi kết thúc phải luôn đem một lợi ích cho tác nhân, nên chúng ta có thể quy
+định rằng, "Control the gate" cuối cùng sẽ luôn là mở được cửa để cho tác nhân người dùng đi qua. 
+- Proposals for Corrections (gợi ý sửa): Hành động 2a2, sẽ là của Passenger, phải làm hành động khiến hệ thống ghi nhận hợp lệ (chạy ra mua vé/thẻ, nạp thêm tiền vào thẻ). Lúc đó quay lại 
+luồng chính được hợp lệ, nên hệ thống sẽ phát lệnh mở cửa. 
+2. Display information of the ticket/card
+- Error(s): 0
+- Comments: Phần mô tả tạm đủ, cần rõ hơn các thông tin sẽ hiển thị ở vé hoặc thẻ. Ở đây cách xử lý là luồng thay thế luồng chính lại khá ổn. Vì dù gì hiển thị thông tin có hợp lệ hay không
+thì cũng đem lại lợi ích cho tác nhân. 
+- Proposals for Corrections (gợi ý sửa):
+
+#Trang đã xem và tiếp thu ý kiến 

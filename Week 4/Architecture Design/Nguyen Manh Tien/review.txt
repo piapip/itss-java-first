@@ -1,0 +1,16 @@
+﻿Homework 04 - Sequence Diagram
+GROUP 9 (ISD.VN.20191-09)
+
+Description of the assignment: 
+	- Design the sequence diagram for use case: Enter and Exit with one-way ticket
+Doer: Nguyễn Mạnh Tiến
+Reviewer: Nguyễn Đình Thơ
+
+1. Design the sequence diagram for use case: Enter with one-way ticket
+- Error(s): 
+- Comments:
+- Proposals for Corrections (gợi ý sửa):
+2. Design the sequence diagram for use case: Exit with one-way ticket
+- Error(s): 
+- Comments:
+- Proposals for Corrections (gợi ý sửa):

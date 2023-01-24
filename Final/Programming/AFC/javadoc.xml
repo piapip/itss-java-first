@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="private" author="true" classpath="F:\tai lieu\hedspi\ky nang ITSS\HOMEWORK\SDK\mysql-connector-java-8.0.18.jar;F:\tai lieu\hedspi\ky nang ITSS\HOMEWORK\SDK\SDK\ticketRecognizer\ticketrecognizer.jar;F:\tai lieu\hedspi\ky nang ITSS\HOMEWORK\SDK\SDK\gate\gate.jar;F:\tai lieu\hedspi\ky nang ITSS\HOMEWORK\SDK\SDK\cardScanner\cardscanner.jar" destdir="doc" doctitle="AFC_Javadoc" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" packagenames="checkValid,view,station,certificate,db,transactions" source="11" sourcepath="src" splitindex="true" use="true" version="true"/>
+    </target>
+</project>

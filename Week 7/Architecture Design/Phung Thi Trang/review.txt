@@ -1,0 +1,29 @@
+﻿Homework 05 - Week 5 - Comunication Diagram And Class Diagram 
+GROUP 9 (ISD.VN.20191-09)
+
+Description of the assignment: 
+	- [**DONE**] [Optional] Update & renew the SRS and the activity diagram for the usecase: **Enter with 24 hour ticket**
+	- [**DONE**] Update the sequence diagrams based on comments and discussion on class for use case:**Enter with 24hour ticket**
+	- [**DONE**] Design the communication diagram for use case: **Enter with 24 hour ticket**
+	- [**DONE**] Design the analysis class diagram for use case: **Enter with 24 hour ticket**
+Doer: Phùng Thị Trang 
+Note: Trang mới sửa máy, gặp vấn đề với việc dùng git ở local, nên không tạo được pull tuần này ạ. Nhóm trưởng nhận file và tự cập nhật vào ạ!
+
+Reviewer: Phạm Hữu Thọ  
+
+1. Update & renew the SRS and the activity diagram for the usecase: **Enter with 24 hour ticket** 
+- Error(s): 
+- Comments:
+- Proposals for Corrections (gợi ý sửa):
+2. Update the sequence diagrams based on comments and discussion on class for use case:**Enter with 24hour ticket**
+- Error(s): 
+- Comments:
+- Proposals for Corrections (gợi ý sửa):
+3. Design the communication diagram for use case: **Enter with 24 hour ticket**
+- Error(s): 
+- Comments:
+- Proposals for Corrections (gợi ý sửa):
+4. Design the analysis class diagram for use case: **Enter with 24 hour ticket**
+- Error(s): 
+- Comments:
+- Proposals for Corrections (gợi ý sửa):

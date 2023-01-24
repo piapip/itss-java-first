@@ -1,0 +1,25 @@
+﻿Homework 05 - Week 5 - Comunication Diagram And Class Diagram 
+GROUP 9 (ISD.VN.20191-09)
+
+Description of the assignment: 
+* [DONE] Update the sequence diagrams based on comments and discussion on class for use case: **Enter prepaid card**
+* [DONE] Design the communication diagram for use case: **Enter with prepaid card**
+* [DONE] Design the analysis class diagram for use case: **Enter with prepaid card**
+* [DONE] Design the combined class diagram of AFC system
+Doer: Nguyễn Đình Thơ
+Reviewer: Phùng Thị Trang
+
+1. Update the sequence diagrams based on comments and discussion on class for use case: **Enter prepaid card**
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):
+2. Design the communication diagram for use case: **Enter with prepaid card**
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):
+3. Design the analysis class diagram for use case: **Enter with prepaid card**
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):
+3. Design the combined class diagram of AFC system
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):

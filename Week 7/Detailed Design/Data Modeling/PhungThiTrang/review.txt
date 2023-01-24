@@ -1,0 +1,24 @@
+﻿Homework 07 - Week 7 - Detailed Design - Data Modeling
+GROUP 9 (ISD.VN.20191-09)
+
+Description of the assignment: 
+	* Design the AFC Conceptual ER Diagram: 24hour Ticket (must have your own drawio file and picture)
+	* Update the file [ISD.VN.20191-09] AFC Conceptual ER Diagram.drawio with your AFC Conceptual ER Diagram.drawio: 24hour Ticket
+	* In the SDD file, write a detail design of element: 24hourTicket;
+Doer: Phung Thi Trang
+Reviewer: Pham Huu Tho
+
+1. Design the AFC Conceptual ER Diagram: 24hour Ticket
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):
+
+2. Update the file [ISD.VN.20191-09] AFC Conceptual ER Diagram.drawio with your AFC Conceptual ER Diagram.drawio: 24hour Ticket
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):
+
+3. In the SDD file, write a detail design of element: 24hourTicket;
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):

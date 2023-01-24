@@ -1,0 +1,28 @@
+﻿Homework 05 - Week 5 - Comunication Diagram And Class Diagram 
+GROUP 9 (ISD.VN.20191-09)
+
+Description of the assignment: 
+	- [DONE] Update & renew the SRS and the activity diagram for the usecase: **Enter with prepaid card**
+	- [DONE] Update the sequence diagrams based on comments and discussion on class for use case: **Enter with prepaid card**
+	- [DONE] Design the communication diagram for use case: **Enter with prepaid card**
+	- [DONE] Design the analysis class diagram for use case: **Enter with prepaid card**
+Doer: Pham Huu Tho
+Reviewer: Nguyen Manh Tien 
+
+1. Update & renew the SRS and the activity diagram for the usecase: **Enter with prepaid card**
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):
+2. Update the sequence diagrams based on comments and discussion on class for use case: **Enter with prepaid card**
+- Error(s): 
+- Comments: Có thể không cần dùng đến message create cho thực thể trip information. Vì có thể là một thực thể ko có dư liệu cho tới khi có giao 
+dịch phát sinh thì chỉ việc lưu vào thôi. 
+- Proposals for Corrections (gợi ý sửa):
+3. Design the communication diagram for use case: **Enter with prepaid card**
+- Error(s): 
+- Comments: No comment	
+- Proposals for Corrections (gợi ý sửa):
+4. Design the analysis class diagram for use case: **Enter with prepaid card**
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):

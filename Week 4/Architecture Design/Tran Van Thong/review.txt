@@ -1,0 +1,14 @@
+﻿Homework 04 - Sequence Diagram
+GROUP 9 (ISD.VN.20191-09)
+
+Description of the assignment: 
+  - Design the sequence diagram for use case: Exit with 24-hour ticket
+Doer: Tran Van Thong
+Reviewer: Nguyen Manh Tien
+
+1. Design the sequence diagram for use case: Exit with 24-hour ticket
+- Error(s): 0
+- Comments:
+	* Các comment trong pull: https://bitbucket.org/tientt_glose/isd.vn.20191-09/pull-requests/45/week4-tranvanthong/activity
+	- Nhìn chung tạm ổn
+- Proposals for Corrections (gợi ý sửa): 0

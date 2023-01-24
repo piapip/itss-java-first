@@ -1,0 +1,35 @@
+﻿Homework 03 - RequirementAnalysis
+GROUP 9 (ISD.VN.20191-09)
+
+Description of the assignment: 
+	- Clean team's repository
+	- Review the team's bitbucket repo fork process
+	- Update last week homework (use case) based on comments and discussion on class
+	- Glossary related to: Scan one-way ticket; All system
+	- Do the specification for use case: Scan one-way ticket
+	- Do the business process for the SRS
+    - Do the supplementary specification for the SRS
+	- Edit, proofread and improve the SRS from the team member's assignment.
+Doer: Nguyễn Mạnh Tiến
+Reviewer: Phùng Thị Trang
+
+1. Glossary related to: Scan one-way ticket; All system
+- Error(s): 
+- Comments:
+- Proposals for Corrections (gợi ý sửa):
+2. Do the specification for use case: Scan one-way ticket
+- Error(s): 1
+- Comments: + Mình chỉ có ý kiến nho nhỏ là chỗ luồng của biểu đồ hoạt động, phần tác nhân thì khong nên ghi cả System vào vì System ở đây không phải là tác nhân, nhưng nó vẫn có trong luồng hoạt động
+				Tien: checked and fixed	    	
+- Proposals for Corrections (gợi ý sửa):
+3. Do the business process for the SRS
+- Error(s): 
+- Comments:
+- Proposals for Corrections (gợi ý sửa):
+4. Do the supplementary specification for the SRS.
+- Error(s): 
+- Comments:
+- Proposals for Corrections (gợi ý sửa):
+
+
+

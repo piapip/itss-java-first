@@ -1,0 +1,12 @@
+﻿Homework 06 - Week 6 - Detailed Design - Class Design 
+GROUP 9 (ISD.VN.20191-09)
+
+Description of the assignment: 
+	* Design the detailed class: AFCCheckValidOfPrepaidCard; OnewayTicket; StationSystem; CardScannerInterface
+Doer: Pham Huu Tho
+Reviewer: Nguyen Dinh Tho
+
+Design the detailed class: AFCCheckValidOfPrepaidCard; OnewayTicket; StationSystem; CardScannerInterface
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):

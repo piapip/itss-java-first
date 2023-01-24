@@ -1,0 +1,18 @@
+﻿Homework 06 - Week 6 - Detailed Design - Class Design 
+GROUP 9 (ISD.VN.20191-09)
+
+Description of the assignment: 
+	* Design the detailed class: AFCControllerPrepaid;  AFCCheckValidOf24hourTicket; 24hourTicket; TicketRecognizerInterface;
+	* Merge into a detailed class diagram with Relationships Between Classes
+Doer: Nguyen Dinh Tho
+Reviewer: Phung Thi Trang 
+
+1. Design the detailed class: AFCControllerPrepaid;  AFCCheckValidOf24hourTicket; 24hourTicket; TicketRecognizerInterface;
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):
+
+2. Merge into a detailed class diagram with Relationships Between Classes
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):

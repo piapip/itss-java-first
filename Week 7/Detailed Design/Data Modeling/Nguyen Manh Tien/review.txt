@@ -1,0 +1,25 @@
+﻿Homework 07 - Week 7 - Detailed Design - Data Modeling
+GROUP 9 (ISD.VN.20191-09)
+
+Description of the assignment: 
+	* Design the AFC Conceptual ER Diagram: Oneway ticket; TravelCertificateInformation; StationSystem; TransactionHistory
+	* Design the AFC Logical ER Diagram: Oneway ticket; TravelCertificateInformation; StationSystem; TransactionHistory
+	* Write a detail design of element in the DB diagram: Oneway ticket; TravelCertificateInformation;
+	* Edit, proofread and improve the SDD file from the team member's update.
+Doer: Nguyen Manh Tien
+Reviewer: Tran Van Thong 
+
+1. Design the AFC Conceptual ER Diagram: Oneway ticket; TravelCertificateInformation; StationSystem; TransactionHistory
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):
+
+2. Design the AFC Logical ER Diagram: Oneway ticket; TravelCertificateInformation; StationSystem; TransactionHistory
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):
+
+3. Write a detail design of element in the DB diagram: Oneway ticket; TravelCertificateInformation;
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):

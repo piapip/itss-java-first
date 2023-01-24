@@ -1,0 +1,82 @@
+﻿Homework 1.5 - Usecase Diagram - Part 2
+GROUP 9 (ISD.VN.20191-09)
+
+===================================================================================================================================================
+Doer: Nguyễn Đình Thơ
+Reviewer: Phùng Thị Trang
+Description of the assignment: 
+	Design flow of events for use cases:
+    1. Scan prepaid card
+    
+1. Scan prepaid card
+- Error(s): 
+- Comments: các hàng không dùng tới thì xóa đi , nhìn cho đẹp , phần luồng có vẻ sơ sài quá, nên viết chi tiết 
+- Proposals for Corrections (gợi ý sửa):
+ví dụ: trường hợp kiểm tra thông tin thẻ mà hợp lệ phải nói hợp lệ ở đây là gì? (đúng id, số tiền trong thẻ đủ để đi đến ga khác ...)--> hệ thống thông báo và chuyển sang luồng khác (control the gate, display information of the ticket/card)
+thẻ không hợp lệ : thiếu tiền, sai id ...--> hệ thống thông báo và chuyển sang luồng khác (control the gate, display information of the ticket/card)
+
+===================================================================================================================================================
+Doer: Phạm Hữu Thọ
+Reviewer: Nguyễn Đình Thơ
+Description of the assignment: 
+	Design flow of events for use cases:
+        Entering the platform
+
+Entering the platform
+- Error(s): 0
+- Comments: Rất đầy đủ và chi tiết. các luồng sự kiện dễ đọc , dễ hiểu
+- Proposals for Corrections (gợi ý sửa): Không có
+
+===================================================================================================================================================
+Doer: Trần Văn Thông
+Reviewer: Phạm Hữu Thọ
+Description of the assignment: 
+	Design flow of events for use cases:
+	Exit the platform
+
+1. Exit the platform
+- Error(s): No error 
+- Comments: The alternative flow needs one more situation, when the user's ticket gets rejected.
+- Proposals for Corrections (gợi ý sửa): Add one more situation
+
+===================================================================================================================================================
+Doer: Nguyễn Mạnh Tiến
+Reviewer: Trần Văn Thông
+Description of the assignment: 
+	Design flow of events for use cases:
+    1. Scan one-way ticket
+    2. Scan 24-hour ticket
+
+1. Scan one-way ticket
+- Error(s): 0
+- Comments: - Phần mô tả chi tiết, rõ ràng.
+	    - Phân tích luồng sự kiện hợp lý, dễ hiểu.
+	    - Phần tác nhân hệ thống giải thích đủ ý, chia ra đầy đủ các trường hợp.
+- Proposals for Corrections (gợi ý sửa): Không có.
+2. Scan 24-hour ticket
+- Error(s): 0
+- Comments: - Phần mô tả rõ ràng về 24-hour ticket.
+	    - Luồng sự kiện được phân tích hợp lý.
+	    - Phần tác nhân hệ thống được nêu từng bước rõ ràng, dễ nắm bắt.
+- Proposals for Corrections (gợi ý sửa): Không có.
+
+===================================================================================================================================================
+Doer: Phùng Thị Trang
+Reviewer: Nguyễn Mạnh Tiến
+Description of the assignment: 
+	Design flow of events for use cases:
+    1. Control the gate
+    2. Display information of the ticket/card
+
+1. Control the gate
+- Error(s): 0 (Comment dưới là dựa trên ý kiến cá nhân tôi, nghĩ sẽ là đúng hơn. Có gì thứ 2 tuần sau sẽ hỏi anh Kỳ hoặc cô Trang)
+- Comments: Phần mô tả đủ, trình bày ổn. Tuy nhiên, ở bài của bạn đang viết luồng chính khi gặp trường hợp "không hợp lệ" sẽ thành một luồng thay thế luôn. Còn trên quan điểm của mình, 
+thì với TH trên sẽ gọi một luồng ngoại lệ, xử lý vấn đề đó rồi quay trở lại thực hiện luồng chính. Vì mỗi usecase, khi kết thúc phải luôn đem một lợi ích cho tác nhân, nên chúng ta có thể quy
+định rằng, "Control the gate" cuối cùng sẽ luôn là mở được cửa để cho tác nhân người dùng đi qua. 
+- Proposals for Corrections (gợi ý sửa): Hành động 2a2, sẽ là của Passenger, phải làm hành động khiến hệ thống ghi nhận hợp lệ (chạy ra mua vé/thẻ, nạp thêm tiền vào thẻ). Lúc đó quay lại 
+luồng chính được hợp lệ, nên hệ thống sẽ phát lệnh mở cửa. 
+2. Display information of the ticket/card
+- Error(s): 0
+- Comments: Phần mô tả tạm đủ, cần rõ hơn các thông tin sẽ hiển thị ở vé hoặc thẻ. Ở đây cách xử lý là luồng thay thế luồng chính lại khá ổn. Vì dù gì hiển thị thông tin có hợp lệ hay không
+thì cũng đem lại lợi ích cho tác nhân. 
+- Proposals for Corrections (gợi ý sửa):

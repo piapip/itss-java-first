@@ -1,0 +1,32 @@
+﻿Homework 05 - Week 5 - Comunication Diagram And Class Diagram 
+GROUP 9 (ISD.VN.20191-09)
+
+Description of the assignment: 
+	- [DONE] [Optional] Update & renew the SRS and the activity diagram for the usecase: Enter/Exit with one-way ticket
+	- [DONE] Update the sequence diagrams based on comments and discussion on class for use case: Enter/Exit with one-way ticket
+	- [DONE] Design the communication diagram for use case: Enter/Exit with one-way ticket
+	- [DONE] Design the analysis class diagram for use case: Enter/Exit with one-way ticket
+	- [DONE] Design the combined class diagram of AFC system
+Doer: Nguyen Manh Tien
+Reviewer: Tran Van Thong 
+
+1. Update & renew the SRS and the activity diagram for the usecase: **Enter with prepaid card**
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):
+2. Update the sequence diagrams based on comments and discussion on class for use case: **Enter with prepaid card**
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):
+3. Design the communication diagram for use case: **Enter with prepaid card**
+- Error(s): 
+- Comments: No comment	
+- Proposals for Corrections (gợi ý sửa):
+4. Design the analysis class diagram for use case: **Enter with prepaid card**
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):
+5. Design the combined class diagram of AFC system
+- Error(s): 
+- Comments: No comment
+- Proposals for Corrections (gợi ý sửa):
